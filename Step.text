@@ -1,0 +1,16 @@
+- You should have JAVA install in your machine
+- Download jar flie from youtube video link ---> doppio_api.jar
+- Download POTSMAN collection 
+
+- Install RequestsLibrary
+
+
+
+GET     /assets ----> get all assets of company     : return เป็นรายการสินทรัพย์ทั้งหมดที่บริษัทมี
+POTS    /assets ----> create new assets             : สร้างสินทรัพย์ใหม่
+PUT     /assets ----> modifly assets                : modifly สินทรัพย์ที่มีอยู่แล้ว แก้ไข เปลี่ยนแปลง
+DELETE  /assets ----> delete assets                 : ลบสิ้นทรัพย์
+
+GET     /assetType ----> get definition assets type
+
+POTS    /login ----> login , Username , password ----> return Token
